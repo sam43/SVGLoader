@@ -24,10 +24,10 @@ class MainActivityGlide : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        //setContentView(R.layout.activity_main)
 
         //imageViewRes = findViewById<ImageView>(R.id.svg_image_view1)
-        imageViewNet = findViewById<ImageView>(R.id.svg_image_view2)
+        imageViewNet = findViewById<ImageView>(R.id.imageView)
 
         requestBuilder = Glide.with(this)
             .`as`(PictureDrawable::class.java)

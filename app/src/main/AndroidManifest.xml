@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools" package="com.experiment.svgloader">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.experiment.svgloader">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -12,6 +13,12 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".others.Main2Activity">
+        </activity>
+        <activity android:name=".others.Main3Activity">
+        </activity>
+        <activity android:name=".usinglib.SVGLoaderActivity">
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
